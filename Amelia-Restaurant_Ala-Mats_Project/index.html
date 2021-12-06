@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--CSS styles restraurant web pages-->
+  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="index.css" />
+  <title>Amelia Restraurant</title>
+  <!--Description of web page-->
+  <meta name="Amelia Restaurant is located in the heart of the Dublin city."
+    content="Amelia Restaurant was esteplished in Dublin in June 2021. We have a wide range of dishes and wines in the menu. Now we are open 7 days a week from 11am to 11pm..." />
+</head>
+<!--all images were downloaded from https://unsplash.com/-->
+<!--Structure of a web page-->
+
+<body>
+  <header>
+    <div class="banner">
+      <img src="images/main-banner.jpg"
+        alt="There is a logo of Amelia Restaurant with a picture of salad at the top of a web page." />
+    </div>
+    <!--the main navigation bar on the header of web page - should be the same for all web pages-->
+    <nav class="nav-menu">
+      <span class="nav-menu-item selected">
+        <a href="index.html">HOME</a>
+      </span>
+
+      <span class="nav-menu-item">
+        <a href="menu.html">MENU</a>
+      </span>
+
+      <span class="nav-menu-item">
+        <a href="gift-vouchers.html">GIFT VOUCHERS</a>
+      </span>
+
+      <span class="nav-menu-item">
+        <a href="contact-us.html">CONTACT US</a>
+      </span>
+    </nav>
+  </header>
+
+  <main>
+    <!--book now section with button-->
+    <section class="no-columns">
+      <button type="button" onclick="window.location='mailto:go@cows.com'">BOOK NOW</button>
+    </section>
+
+    <!--3 columns with pictures and links to different pages-->
+    <section class="columns">
+      <a class="main-list-item" href="#">
+        <div class="main-webparts-with-images" style="background-image: url(images/index-christmas-dinner-small.jpg)">
+          <!--empty image src were added in these web parts that the alt text was readed for people with special needs-->
+          <img src=""
+            alt="There is a Christmas table on the picture. It is served with white plates, red napkings and christmas flowers." />
+        </div>
+        <div>
+          <h3>ORDER CHRISTMAS DINNER</h3>
+          <div class="button-wrap">READ more...</div>
+        </div>
+      </a>
+
+      <a class="main-list-item" href="#">
+        <div class="main-webparts-with-images" style="
+            background-image: url(images/index-cooking-with-chef-small.jpg);
+            background-position-x: -130px;
+          ">
+          <img src="" alt="There is a picture of a chef in the moment of cooking in the restraurant's kitchen." />
+        </div>
+        <div>
+          <h3>COOKING WITH THE CHEF</h3>
+          <div class="button-wrap">READ more...</div>
+        </div>
+      </a>
+
+      <a class="main-list-item" href="#">
+        <div class="main-webparts-with-images" style="background-image: url(images/index-our-story-small.jpg)">
+          <img src="" alt="There is a picture of the restraurant's main area with brown tables and white chairs." />
+        </div>
+        <div>
+          <h3>DISCOVER OUR STORY</h3>
+          <div class="button-wrap">READ more...</div>
+        </div>
+      </a>
+    </section>
+    <section class="">
+
+    </section>
+  </main>
+
+  <footer>
+    <nav class="footer-nav-menu">
+      <span class="footer-nav-menu-item">
+        <a href="index.html">HOME</a>
+      </span>
+
+      <span class="footer-nav-menu-item">
+        <a href="menu.html">MENU</a>
+      </span>
+
+      <span class="footer-nav-menu-item">
+        <a href="gift-vouchers.html">GIFT VOUCHERS</a>
+      </span>
+
+      <span class="footer-nav-menu-item">
+        <a href="contact-us.html">CONTACT US</a>
+      </span>
+    </nav>
+
+    <div class="footer-restaurant-address">
+      <p>
+        Amelia Restaurant, 17 Dublin Str, Dublin 2, phone: +353 25 1452578,
+        email: info@amelia.ie
+      </p>
+    </div>
+
+    <p class="footer-text">
+      Developed by Ala Mats, student of Dundrum College of Further Education,
+      © 2022
+    </p>
+  </footer>
+</body>
+
+</html>

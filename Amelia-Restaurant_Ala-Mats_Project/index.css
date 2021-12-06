@@ -1,0 +1,23 @@
+main {
+  justify-content: center;
+}
+
+/*3 web parts on the index page*/
+.main-list-item {
+    flex-direction: column;
+    margin: 15px;
+    width: 300px;
+    text-decoration: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+.main-webparts-with-images img{
+    display: none;
+}
+
+.main-webparts-with-images {
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+}
