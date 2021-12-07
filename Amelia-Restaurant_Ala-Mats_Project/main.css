@@ -3,11 +3,11 @@ html {
 }
 
 
-/*style of web pages*/
+/*general style of web pages*/
 
 body {
     color: black;
-    background-color: whitesmoke;
+    background-color:whitesmoke;
     background-size: cover;
     background-position: center;
     margin-left: auto;
@@ -18,11 +18,11 @@ body {
 
 .banner img {
     width: 1024px;
-    
+    display: block;
 }
 
 
-/*general about the main nav-menu*/
+/*top navigation menu*/
 
 .nav-menu {
     padding-top: 10px;
@@ -34,7 +34,7 @@ body {
 }
 
 
-/*the style for the main nav-menu on all pages should be here*/
+/*the style for the main nav-menu on all pages*/
 
 .nav-menu-item {
     border: 1px;
@@ -48,11 +48,13 @@ body {
 }
 
 
-/* change the link color on hover */
+/* change the navigation menu color on hover */
 
 .nav-menu-item:hover {
     background-color: rgb(250, 175, 57);
 }
+
+/*changes for selected page in navigation*/
 
 .nav-menu-item.selected a {
     color: rgb(250, 175, 57);
@@ -66,6 +68,8 @@ nav {
     padding: 0;
 }
 
+/*text navigation style*/
+
 nav a {
     color: white;
     text-decoration: none;
@@ -74,6 +78,8 @@ nav a {
     padding-left: 12px;
 }
 
+/*main general*/
+
 main .columns {
     margin-top: 5px;
     background-color: whitesmoke;
@@ -81,28 +87,43 @@ main .columns {
     display: flex;
 }
 
+/*book now section in the main*/
+
 main .no-columns{
 margin: auto;
 text-align: center;
-padding: 100px 0;
-background-image: url('images/gonzalo-mendiola-FKg3t5TfOsY-unsplash.jpg');
-background-position-y: 300px;
+padding: 50px 0;
+background-image: url('images/book-now-image-backgraund.jpg');
+background-position-y: 1545px;
 background-size: 100%;
 }
+
+/*book now section in the main, setting of button*/
 main .no-columns button {
     width: 250px;
     border-radius: 5px;
     height: 50px;
-        color: white;
-        background: black;
-        font-size: 20px;
+    color: white;
+    background: black;
+    font-size: 20px;
 }
-main .no-columns button:hover {
+
+main .no-columns button:hover{
+    color: black;
+    background: rgb(250, 175, 57);
+    font-size: 22px;
+}
+
+.button-wrap {
+ font-style: italic;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+
+/*footter general*/
 
 footer {
-    margin-top: 5px;
+    margin-top: 0px;
     background-color: black;
     padding: 15px 25px 5px 25px;
     text-align: center;
@@ -139,8 +160,21 @@ footer {
     font-size: small;
 }
 
+/*footer mail to*/
 
-/*deviding page to 2 parts - contact us*/
+.footer-restaurant-address a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer-restaurant-address:hover a{
+    color:rgb(250, 175, 57);
+    
+}
+
+
+/*deviding page to 2 parts - contact us and vouchers*/
 
 .column {
     display: inline-block;
@@ -161,7 +195,7 @@ footer {
 }
 
 .wider {
-    width: 60%;
+    width: 50%;
 }
 
 .narrower {
@@ -177,6 +211,25 @@ footer {
     width: 100%;
     height: 180px;
 }
+
+#contact-us .wider.column {
+    padding: 30px;
+}
+
+.section-content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.section-content:hover a{
+    color:rgb(250, 175, 57);
+    font-weight: bold;
+    
+}
+
+/*vouchers*/
 
 .section-content {
     padding-top: 15px;
@@ -207,7 +260,7 @@ footer {
     color: black;
 }
 
-/*address text on contact us page*/
+/*vouchers section*/
 
 .top-heading {
     margin-bottom: 0px;
@@ -233,3 +286,40 @@ footer {
 .bottom-menu section {
     display: inline-block;
 }
+
+/*menu page*/
+#menu-section {
+    padding: 35px 45px;
+    /*background-image: url('images/brick-wall-bck-ground.jpg');*/
+    background-size: 100%;
+    
+}
+#menu-section .section-title {
+    text-align: center;
+}
+
+#menu-section .list {
+    list-style: none;
+    }
+
+#menu-section .item-title {
+    margin-left: 30px;
+}
+
+#menu-section .list-item {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#menu-section .medium-weight {
+    margin-left: 40px;
+    color: rgb(80, 80, 80);
+    font-size: smaller;
+    font-style: italic;
+}
+
+#menu-section .light-weight {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
