@@ -120,16 +120,24 @@ main .no-columns button:hover{
 
 }
 
+/*text heading under pictures in the web part*/
+.text-under-picture{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 /*Our story section*/
 .header-no-columns{
     text-align: center;
     margin-bottom: -10px;
     padding: 40px 80px 5px 80px;
+    font-size: xx-large;
 }
 
 .text-no-columns{
-    padding: 10px 220px 60px 220px;
+    padding: 10px 180px 60px 180px;
     text-align: center;
+    font-size: large;
 }
 
 /*footter general*/
@@ -309,10 +317,14 @@ footer {
 .top-heading {
     margin-bottom: 0px;
     margin-left: 20px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .sub-heading {
     margin: 0px 20px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 .bold {
@@ -325,6 +337,7 @@ footer {
 
 .bottom-menu p {
     display: inline-block;
+    font-size: large;
 }
 
 .bottom-menu section {
@@ -340,6 +353,7 @@ footer {
 }
 #menu-section .section-title {
     text-align: center;
+    font-size: xxx-large;
 }
 
 #menu-section .list {
@@ -348,6 +362,7 @@ footer {
 
 #menu-section .item-title {
     margin-left: 30px;
+    font-size: x-large;
 }
 
 #menu-section .list-item {
@@ -359,7 +374,7 @@ footer {
 #menu-section .medium-weight {
     margin-left: 40px;
     color: rgb(80, 80, 80);
-    font-size: smaller;
+    font-size: medium;
     font-style: italic;
 }
 
